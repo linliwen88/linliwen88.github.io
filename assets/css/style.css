@@ -11,7 +11,8 @@
   /* background-size: cover;  */
   margin: -31px; 
   margin-left:-7px;
-  border: 6px solid rgba(0, 77, 64, 0.4); 
+  /* border: 6px solid rgba(0, 77, 64, 0.4);  */
+  border: 6px solid rgba(138, 62, 0, 0.566); 
   border-radius: 50% !important;
 }
 
@@ -320,7 +321,8 @@ h3 {
 } */
 
 #intro.section {
-  background: #a7ffeb repeat;
+  /* background: #a7ffeb repeat; */
+  background: #ffdca7 repeat;
   position: relative;
 }
 
@@ -356,7 +358,7 @@ h3 {
 }
 
 .overlay {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.15);
   height: 100%;
   left: 0;
   position: absolute;
@@ -473,7 +475,8 @@ a.hoverline {
 } */
 
 a.hoverline:hover {
-  border-bottom: 3px solid #004d40 !important;
+  /* border-bottom: 3px solid #004d40 !important; */
+  border-bottom: 3px solid #4d2e00 !important;
 }
 
 #skills .card.large {
@@ -549,7 +552,8 @@ small {
 /* main .teal-text */
 
 .teal-text {
-  color: #008073 !important;
+  /* color: #008073 !important; */
+  color: #eda551 !important;
 }
 
 /* .teal-text {
@@ -559,7 +563,8 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #008073 !important;
+  /* background-color: #008073 !important; */
+  background-color: #eda551 !important;
 }
 
 /* .teal {
@@ -602,7 +607,8 @@ small {
     position: absolute;
   }
   nav a.button-collapse, nav a.button-collapse i {
-    color: #009688;
+    /* color: #009688; */
+    color: #965a00;
     height: 56px;
     line-height: 56px;
   }
