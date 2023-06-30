@@ -159,7 +159,7 @@
     <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
       class="button-collapse"><i class="mdi-navigation-menu"></i></a>
     <div class="name-title">
-      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Li-Wen Lin</a><span class="black-text">Software Developer</span>
+      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Li-Wen Lin</a><span class="black-text">Graphics Programmer</span>
     </div>
   </nav>
 
@@ -466,7 +466,7 @@
                 <span class="card-title activator teal-text hoverline">Cat  Walk<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  A music streaming web app based on Django
+                  Deep reinforcement learning for cat walking motion using Unity ML-Agents Toolkit.
                 </p>
               </div>
               <div class="card-reveal">
@@ -475,20 +475,18 @@
                 <span class="card-title grey-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li><b>Tools:</b> Django, HTML, CSS, Bootstrap, SQLite, AWS S3, Heroku</li>
-                  <li>Register/login to the web app(with OAuth-based Google Sign-In).</li>
-                  <li>Search and filter songs based on language and singer.</li>
-                  <li>Create multiple playlists and add/remove songs to/from playlist.</li>
-                  <li>Scroll through recently played/viewed songs.</li>
-
+                  <li><b>Tools:</b> Unity, C#, ML-agents Toolkit, Deep reinforcement learning.</li>
+                  <li>The goal is to train the cat to learn walking motions and walk toward a yellow target in the environment. </li>
+                  <li>Compound colliders are created for the rigged cat fbx and joints are registered as action spaces in the agent script. </li>
+                  <li>PPO algorithm is used for Deep reinforcement learning. We trained in stages by defining individual reward functions: first is to learn to balance on four limbs without falling over; then learn to move towards the target while remaining balanced. </li>
 
                 </ul>
-                <div class="card-action">
-                  <a aria-label="Visit " href="https://galvanic-music.herokuapp.com/" target="_blank" data-position="top"
-                    data-tooltip="View Online"
+                <div class="card-link">
+                  <a aria-label="Visit Youtube for demo" href="https://youtu.be/gw-voknl4No" target="_blank" data-position="top"
+                    data-tooltip="View Demo"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/music-player"
+                      class="fa fa-youtube"></i></a>
+                  <a aria-label="Visit the GitHub repo for project" href="https://github.com/linliwen88/CatWalk"
                     target="_blank" data-position="top" data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-github"></i></a>
@@ -496,45 +494,6 @@
               </div>
             </div>
           </div>
-
-          
-
-          <!-- 1. Django Project -->
-          <!-- <div class="col s12 m6 l6">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="django web app" src="/assets/img/project-library-logo.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Local Library Web-App<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A web-app that creates an online catalog for a small local library, where users can browse available books and manage their accounts.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> HTML, CSS, Bootstrap, SQLite, Django, Heroku</li>
-                  <li>Users can view list and detail information for books and authors.</li>
-                  <li>Admin users can create and manage models.</li>
-                  <li>Librarians can renew reserved books.</li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit " href="https://django-local-lib.herokuapp.com" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/django-local-library"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div> -->
 
           <!-- Flask Project -->
           <div class="col s12 m6 l4">
@@ -544,10 +503,10 @@
                 style="height: auto; max-width: 100%;" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Topology Optimization<i
+                <span class="card-title activator teal-text hoverline">Truss Optimization<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  A simple and extensible blog web-app based on Flask.
+                  Solve for minimum compliance of optimal truss design problem for it to withstand force.
                 </p>
               </div>
               <div class="card-reveal">
@@ -556,13 +515,14 @@
                 <span class="card-title teal-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li><b>Tools:</b> HTML, CSS, Bootstrap, Flask, SQLAlchemy, Postgresql, Python</li>
-                  <li>Users can view posts and contact the admin via Contact Page.</li>
-                  <li>Admin can Add, Delete, Update posts.</li>
-
+                  <li><b>Tools:</b> OpenGL, Eigen library, Ubuntu OS.</li>
+                  <li>Coursework in Computational Design and Digital Fabrication.</li>
+                  <li>Implemented linear programming formulation and displacement-based formulation of compliance.</li>
+                  <li>Solved equilibrium using sparse Cholsky factorization.</li>
+                  <li>Compared the two algorithms regarding the minimization result and perturbation robustness.</li>
 
                 </ul>
-                <div class="card-action">
+                <!-- <div class="card-link">
                   <a aria-label="Visit Blog website" href="https://flask-heroku-blog.herokuapp.com/" target="_blank" data-position="top"
                     data-tooltip="View Online"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
@@ -571,7 +531,7 @@
                     target="_blank" data-position="top" data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-github"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -586,7 +546,7 @@
                 <span class="card-title activator teal-text hoverline">Road Model to Driving Video Alignment<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  An attention-based classification model that aims at generating an answer for a given input image.
+                  Environment setup for an AR project.
                 </p>
               </div>
               <div class="card-reveal">
@@ -595,20 +555,19 @@
                 <span class="card-title teal-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li>Incorporated Convolution Neural Networks (CNN) for extracting image features and Long Short Term
-                    Memory for extracting question
-                    embeddings.</li>
-                  <li>Tested the model on the COCO dataset, abstract scenes images, and got 69% overall accuracy on the
-                    VQA evaluation metric.</li>
+                  <li><b>Tools: </b>OpenGL, OpenCV, Image Segmentation, Gradient Descent Optimization.</li>
+                  <li>This project is to place road models onto real-world driving footage to create a platform for placing 3D vehicle models.</li>
+                  <li>Combined Deep Image Segmentation and Histogram of Gradients (OpenCV) as scores to evaluate alignment similarity.</li>
+                  <li>Used gradient descent to find the optimal angle configuration for the model to match the video.</li>
 
                 </ul>
-                <div class="card-action">
+                <!-- <div class="card-link">
                   <a aria-label="Visit the GitHub repo for  project"
                     href="https://github.com/varadbhogayata/visual-question-answering" target="_blank"
                     data-position="top" data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-github"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -617,13 +576,13 @@
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/project_box_hunt_temp.png" style="height: auto; max-width: 100%;" class="activator" />
+                <img alt="Screenshot of  web app" src="/assets/img/project_box_hunt.png" style="height: auto; max-width: 100%;" class="activator" />
               </div>
               <div class="card-content">
                 <span class="card-title activator teal-text hoverline">Box Hunt<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  A Seq2Seq model that generates a short summary of the given input video.
+                  A first-person treasure hunt-game created with OpenGL.
                 </p>
               </div>
               <div class="card-reveal">
@@ -632,20 +591,19 @@
                 <span class="card-title brown-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li>Incorporated CNN to detect and classify objects in the video frames and Long Short Term Memory for
-                    generating a summary.</li>
-                  <li>Evaluated the model on MSVD (Microsoft Video Description Corpus) dataset; achieved 0.77, 0.71,
-                    0.52 scores respectively on ROGUE,
-                    BLEU, METEOR evaluation metrics.</li>
+                  <li><b>Tools: </b>C++, OpenGL, GLUT</li>
+                  <li>Created terrain with height map; Implemented Bezier curve for automatic scene path routing.</li>
+                  <li>Incorporated a particle system to simulate fire when an item is burning.</li>
+                  <li>Shadow mapping and normal mapping techniques are implemented for realistic looks.</li>
 
                 </ul>
                 <!-- TODO: UPLOAD THIS PROJECT ON GITHUB -->
-                <div class="card-action">
+                <!-- <div class="card-link">
                   <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/"
                     target="_blank" data-position="top" data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-github"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -660,7 +618,7 @@
                 <span class="card-title activator teal-text hoverline">'Struggle' the Animation<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  An image generator based on the concept of adversarial networks (GANs)
+                  Short animation created by ANUT studio.
                 </p>
               </div>
               <div class="card-reveal">
@@ -669,17 +627,17 @@
                 <span class="card-title brown-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li>Developed system was tested on a human-face database and loss was calculated by comparing the PCAs
-                    of generated and original image.</li>
-                  <li>Calculated difference in PCA was less than 10%, depicting the successful generation of an image by
-                    the generator.</li>
+                  <li><b>Tools: </b>Cinema4D, PowerDirector</li>
+                  <li><a href="https://www.facebook.com/ANUTstudio" target="_blank">ANUT Studio</a> is a 3D animation club at NTHU where students passionate about 3D gather and learns about VFX, animation, and 3D software.</li>
+                  <li>This film was created by a group of four people. As coordinator and final compositor, I was responsible for editing the scenes together and adding background music.</li>
+                  <li>Moreover, I set the production schedule in order to meet the deadline so we could publicly showcase the animation.</li>
 
                 </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/"
-                    target="_blank" data-position="top" data-tooltip="View Source"
+                <div class="card-link">
+                  <a aria-label="Visit Youtube for demo" href="https://youtu.be/SNhUKFL5e4E"
+                    target="_blank" data-position="top" data-tooltip="Watch on Youtube"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
+                      class="fa fa-youtube"></i></a>
                 </div>
               </div>
             </div>
@@ -695,7 +653,7 @@
                 <span class="card-title activator teal-text hoverline">Ray Casting Volume Visualization Web-App <i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  A system that calculates the attendance of the class from a panoramic image of a live classroom.
+                  A volumetric data visualization with adjustable transfer function.
                 </p>
               </div>
               <div class="card-reveal">
@@ -704,18 +662,18 @@
                 <span class="card-title brown-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li>Used Singular Value Decomposition for image compression; applied various image processing
-                    techniques and morphological operations to
-                    detect the number of heads.</li>
+                  <li><b>Tools: </b>Javascript, WebGL, Three.js</li>
+                  <li>Implemented volume ray casting with opacity and color correction inside fragment shader.</li>
+                  <li>Implemented interactable bezier curve for transfer function opacity control.</li>
 
                 </ul>
-                <div class="card-action">
+                <!-- <div class="card-link">
                   <a aria-label="Visit the GitHub repo for  project"
                     href="https://github.com/varadbhogayata/visual-question-answering" target="_blank"
                     data-position="top" data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-github"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -731,7 +689,7 @@
                 <span class="card-title activator teal-text hoverline">Cell Detection<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  A system that calculates the attendance of the class from a panoramic image of a live classroom.
+                  An interface for automatically processing a batch of cell images and area calculation.
                 </p>
               </div>
               <div class="card-reveal">
@@ -740,17 +698,16 @@
                 <span class="card-title brown-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li>Used Singular Value Decomposition for image compression; applied various image processing
-                    techniques and morphological operations to
-                    detect the number of heads.</li>
+                  <li><b>Tools: </b>Python, PyQt, OpenCV</li>
+                  <li>User can draw/erase masks on images for more precise coverage of cells.</li>
 
                 </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project"
-                    href="https://github.com/varadbhogayata/visual-question-answering" target="_blank"
-                    data-position="top" data-tooltip="View Source"
+                <div class="card-link">
+                  <a aria-label="Visit Youtube for demo"
+                    href="https://youtu.be/M7ljN6GPwnE" target="_blank"
+                    data-position="top" data-tooltip="View Demo"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
+                      class="fa fa-youtube"></i></a>
                 </div>
               </div>
             </div>
@@ -762,10 +719,10 @@
                 <img alt="quiz app" src="/assets/img/project_tetris_square.png" style="height: auto; max-width: 100%;" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Tetris on Self-designed Console<i
+                <span class="card-title activator teal-text hoverline">Tetris<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  A quiz playing web app based on Django
+                  The game ia completely written in C without any 3rd party libraries on self-designed console.
                 </p>
               </div>
               <div class="card-reveal">
@@ -774,17 +731,17 @@
                 <span class="card-title grey-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li><b>Tools:</b> Django, HTML, CSS, Bootstrap, SQLite, Heroku</li>
-                  <li>Register/login to the web app(with OAuth-based Google Sign-In).</li>
-                  <li>Play Quiz and see the leaderboard</li>
-
+                  <li><b>Tools:</b> C, Risc-V assembly</li>
+                  <li>On the OS (kernel) side, graphics API are written in C for game developers to use via function calls.</li>
+                  <li>On the Game side (cartridge), the game flow is managed by stages and utilizes timing/graphics APIs exposed by the kernel to draw the game onto the Risc-V console.</li>
+                  <li>Function calls are translated into assembly language for making communication between the cartridge and kernel.</li>
                 </ul>
-                <div class="card-action">
-                  <a aria-label="Visit " href="https://quiz-up-app.herokuapp.com/" target="_blank" data-position="top"
-                    data-tooltip="View Online"
+                <div class="card-link">
+                  <a aria-label="Visit Youtube for demo " href="https://youtu.be/ww55ij6ASrk" target="_blank" data-position="top"
+                    data-tooltip="View Demo"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/QuizUp"
+                      class="fa fa-youtube"></i></a>
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/SamLee-dedeboy/OS251"
                     target="_blank" data-position="top" data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-github"></i></a>
@@ -896,40 +853,6 @@
           </div>
         </div>
 
-        <!-- certifications -->
-        <!-- <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Certificates</h4>
-            <div class="row text-left">
-              <div class="container">
-                <div class="row">
-                  <div class="col s12 m6 l6">
-                    <div class="card">
-                      <div class="card-image">
-                        <img src="/assets/img/mooc-machine-learning-coursera-800x500.jpg">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title teal-text">Machine Learning (Stanford)</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col s12 m6 l6">
-                    <div class="card">
-                      <div class="card-image">
-                        <img src="/assets/img/mooc-algorithms-stanford-2-800x500.jpg">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title teal-text">Algorithms (Stanford)</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
       </div>
     </section>
 
@@ -1039,7 +962,7 @@
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script type="text/javascript">
     var typed = new Typed('.typing',{
-      strings: ["Graphics Programmer", "Engineer", "Fast Learner"],
+      strings: ["Graphics Programmer", "Software Engineer", "Fast Learner"],
       loop: true,
       typeSpeed: 80,
       backSpeed: 40

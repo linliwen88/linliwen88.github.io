@@ -422,6 +422,12 @@ h3 {
   text-transform: uppercase;
 }
 
+.card-link{
+  position: sticky;
+  padding-top: 10px;
+  bottom: 0;
+}
+
 #experience .card-action {
   background-color: rgba(0, 0, 0, 0.02);
   border: none;
@@ -531,6 +537,7 @@ a.hoverline:hover {
 .card-action a.btn-floating {
   margin-bottom: 0;
 }
+
 
 #contact a:not(.btn-floating) {
   bottom: 6px;
