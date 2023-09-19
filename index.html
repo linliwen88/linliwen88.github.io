@@ -792,10 +792,11 @@
                 <span class="card-title grey-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li><b>Tools:</b> C, Risc-V assembly</li>
-                  <li>On the OS (kernel) side, graphics API are written in C++ for game developers to use via function calls.</li>
-                  <li>On the Game side (cartridge), the game flow is managed by stages and utilizes timing/graphics APIs exposed by the kernel to draw the game onto the Risc-V console.</li>
-                  <li>Function calls are translated into assembly language for making communication between the cartridge and kernel.</li>
+                  <li><b>Tools:</b> C++, Assembly</li>
+                  <li>Designed and developed system call graphics APIs in C++ and Assembly inside a RISC-V kernel for drawing sprites.</li>
+                  <li>Implemented multi-thread APIs inside kernel, allowing game cartridges to perform multitasking.</li>
+                  <li>Recreated fully functional Tetris game cartridge that can be executed by the kernel via the self-designed APIs.</li>
+                  <li>Controlled game flow by a state machine, resulting in 90% acceleration of response time and eliminated crashes.</li>
                 </ul>
                 <div class="card-link">
                   <a aria-label="Visit Youtube for demo " href="https://youtu.be/ww55ij6ASrk" target="_blank" data-position="top"
